@@ -1,2 +1,120 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+//override
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+//override
+div{
+  background-color: #000 !important;
+}
+p{
+  color: white !important;
+}
+header {
+  color: white;
+}
+.nav-underline-tabs .nav-link{
+  color :white;}
+
+footer{
+  background-color: #000;
+}
+
+.dropdown-toggle {
+  appearance: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dd2227;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  letter-spacing: 0;
+  transition: background-color 0.5s, color 0.5s;
+  box-shadow: none;
+  background-image: none;
+}
+
+.dropdown-toggle:hover{
+  background-color: #dd2227 !important;
+  color: #fff;
+  background-image: none !important;
+  border-color: $primary !important;
+  box-shadow: none;
+}
+
+.dropdown-item{
+  color:#fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: crimson;
+    color: white;
+}
+
+.course-tabs-navigation .nav a:not(.active):hover,
+.course-tabs-navigation .nav a:hover, .course-tabs-navigation .nav button:hover {
+  background-color: crimson;
+}
+
+.pgn__menu-select-trigger-btn {
+  box-sizing: border-box;
+  border: none;
+  color: crimson;
+  background-color: transparent;
+}
+
+.pgn__menu-select-trigger-btn:hover {
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  color: #960e29;
+}
+
+.sequence-navigation .sequence-navigation-tabs .btn {
+  background-color: black;
+  color: #fff;
+}
+
+.sequence-navigation .next-btn,
+.sequence-navigation .previous-btn {
+  color: white;
+}
+.icon-container{
+  color: #fff;
+}
+
+.text-dark-700 {
+  color: white !important;
+}
+
+.pgn__data-table.is-striped tr:nth-child(2n) {
+  background-color: black;
+}
+
+.text-dark-500 {
+  color: crimson !important;
+}
+
+.unit-navigation .btn-outline-primary:hover,
+.unit-navigation .btn-outline-secondary:hover {
+    background-color: crimson;
+    border-color: #9a0e2a;
+    color: #fff;
+}
+
+.collapsible-trigger span.align-middle {
+    color: white;
+}
+
+div .h2 {
+    color: white;
+}
+
+}
