@@ -12,7 +12,7 @@
 div, footer, 
 .sequence-navigation .sequence-navigation-tabs .btn,
 .pgn__data-table.is-striped tr:nth-child(2n){
-  background-color: $cyber-dark !important;
+  background-color: $cyber-dark!important;
 }
 
 //Change header background color in course
@@ -124,11 +124,39 @@ div .h2 {
 }
 
 .unit-container {
-  margin-left: auto;
-  margin-right: auto;
   max-width: none;
-  width: auto;
-  padding: 0 24px 2rem;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
+}
+
+#root header {
+    display: none;
+}
+
+#root footer {
+    display: none !important;
+}
+
+.course-tabs-navigation {
+    display: none;
+}
+
+#root [data-testid="instructor-toolbar"] {
+    display: none;
+}
+
+#main-content div.position-relative.d-flex.align-items-start {
+    display: none !important;
+}
+
+.sequence-container{
+margin-bottom:0;
+}
+
+.text-right.small.py-1 {
+    display: none;
 }
