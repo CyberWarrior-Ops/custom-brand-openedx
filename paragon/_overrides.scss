@@ -160,3 +160,8 @@ margin-bottom:0;
 .text-right.small.py-1 {
     display: none;
 }
+
+#root main {
+  height: 100vh;
+  flex-grow: 1;
+}
