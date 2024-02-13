@@ -165,3 +165,58 @@ margin-bottom:0;
   height: 100vh;
   flex-grow: 1;
 }
+
+//Improve Edx Course Index
+//boton tipo anchor
+.row.w-100.m-0.mb-3.justify-content-end > .col-12.col-md-auto.p-0 > button {
+  background: none;
+  border: none;
+  color: crimson; 
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+
+.row.w-100.m-0.mb-3.justify-content-end > .col-12.col-md-auto.p-0 > button:hover {
+  text-decoration: underline;
+}
+
+.row.w-100.m-0.mb-3.justify-content-end > .col-12.col-md-auto.p-0 > button:focus {
+  outline: none;
+}
+
+
+//header
+
+[data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+[data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-actions {
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+[data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-actions .btn {
+  color: white; /* Cambia el color del texto a blanco */
+  width: fit-content; /* Ajusta el ancho al contenido */
+  margin-top: 5px; /* Ajusta el margen superior según sea necesario */
+}
+
+//collapsible
+
+.collapsible-trigger{
+  background-color:#1a1919 !important;
+  margin-bottom: 5px;
+}
+
+.collapsible-trigger > div{
+  background-color:#1a1919 !important;
+}
+
+//margin
+.row.course-outline-tab > div:nth-child(2) {
+  margin-left: auto;
+  margin-right: auto;
+}
