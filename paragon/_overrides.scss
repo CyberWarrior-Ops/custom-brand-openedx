@@ -12,7 +12,7 @@
 div, footer, 
 .sequence-navigation .sequence-navigation-tabs .btn,
 .pgn__data-table.is-striped tr:nth-child(2n){
-  background-color: $cyber-dark!important;
+  background-color: $cyber-dark;
 }
 
 //Change header background color in course
@@ -189,29 +189,28 @@ margin-bottom:0;
 
 //header
 
-[data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-content {
-  display: flex;
-  flex-direction: column;
-}
-
-[data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-actions {
-  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
-}
-
 [data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-actions .btn {
-  color: white; /* Cambia el color del texto a blanco */
-  width: fit-content; /* Ajusta el ancho al contenido */
-  margin-top: 5px; /* Ajusta el margen superior según sea necesario */
+  color: white; 
+  width: fit-content;
+  margin-top: 5px; 
+}
+
+.mb-3.raised-card.pgn__card.pgn__card-light.card .pgn__card-header{
+  display: block !important;
+  color: white;
+}
+.mb-3.raised-card.pgn__card.pgn__card-light.card .pgn__card-header .pgn__card-header-content .pgn__card-header-title-md{
+  color: white !important;
 }
 
 //collapsible
 
-.collapsible-trigger{
+.pgn_collapsible.mb-2.collapsible-card-lg{
   background-color:#1a1919 !important;
-  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
-.collapsible-trigger > div{
+.pgn_collapsible.mb-2.collapsible-card-lg div{
   background-color:#1a1919 !important;
 }
 
@@ -219,4 +218,8 @@ margin-bottom:0;
 .row.course-outline-tab > div:nth-child(2) {
   margin-left: auto;
   margin-right: auto;
+}
+
+.row.course-outline-tab > div:nth-child(3) {
+  display: none;
 }
