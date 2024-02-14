@@ -206,12 +206,11 @@ margin-bottom:0;
 
 //collapsible
 
-.collapsible-trigger{
+.pgn_collapsible.mb-2.collapsible-card-lg{
   background-color:#1a1919 !important;
-  margin-bottom: 5px;
 }
 
-.collapsible-trigger > div{
+.pgn_collapsible.mb-2.collapsible-card-lg div{
   background-color:#1a1919 !important;
 }
 
@@ -219,4 +218,8 @@ margin-bottom:0;
 .row.course-outline-tab > div:nth-child(2) {
   margin-left: auto;
   margin-right: auto;
+}
+
+.row.course-outline-tab > div:nth-child(3) {
+  display: none;
 }
