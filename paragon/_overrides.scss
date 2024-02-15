@@ -223,3 +223,37 @@ margin-bottom:0;
 .row.course-outline-tab > div:nth-child(3) {
   display: none;
 }
+
+//content page
+
+#courseware-sequenceNavigation:nth-child(2) {
+  max-width: 50%;
+}
+
+.unit-container .unit h1 {
+  color: #fff !important;
+  font-size: 2rem !important;
+}
+
+.sequence-container .unit-container .unit-iframe-wrapper {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.unit-navigation {
+  max-width: 300px !important;
+}
+
+.unit-navigation .next-button.btn-outline-primary {
+  background-color: #DC143C !important;
+  color: #fff !important;
+}
+
+.unit-navigation .previous-button.btn-outline-secondary {
+  background-color: #808080 !important;
+  color: #fff !important;
+}
+
+.container-xl .sequence-container .sequence {
+  border: none !important; 
+}
