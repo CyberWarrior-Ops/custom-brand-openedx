@@ -22,13 +22,13 @@ header div{
 
 
 p{
-  color: white !important;
+  color: $light !important;
 }
 header {
-  color: white;
+  color: $light;
 }
 .nav-underline-tabs .nav-link{
-  color :white;}
+  color :$light;}
 
 .dropdown-toggle {
   appearance: none;
@@ -61,19 +61,19 @@ header {
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  background-color: crimson;
-    color: white;
+  background-color: $primary;
+    color: $light;
 }
 
 .course-tabs-navigation .nav a:not(.active):hover,
 .course-tabs-navigation .nav a:hover, .course-tabs-navigation .nav button:hover {
-  background-color: crimson;
+  background-color: $primary;
 }
 
 .pgn__menu-select-trigger-btn {
   box-sizing: border-box;
   border: none;
-  color: crimson;
+  color: $primary;
   background-color: transparent;
 }
 
@@ -90,29 +90,29 @@ header {
 
 .sequence-navigation .next-btn,
 .sequence-navigation .previous-btn {
-  color: white;
+  color: $light;
 }
 .icon-container{
   color: #fff;
 }
 
 .text-dark-700 {
-  color: white !important;
+  color: $light !important;
 }
 
 .text-dark-500 {
-  color: crimson !important;
+  color: $primary !important;
 }
 
 .unit-navigation .btn-outline-primary:hover,
 .unit-navigation .btn-outline-secondary:hover {
-    background-color: crimson;
+    background-color: $primary;
     border-color: #9a0e2a;
     color: #fff;
 }
 
 .collapsible-trigger span.align-middle {
-    color: white;
+    color: $light;
 }
 
 .course-outline-tab > .col-md-4 > section > ul > li > a {
@@ -120,7 +120,7 @@ header {
 }
 
 div .h2 {
-    color: white;
+    color: $light;
 }
 
 .unit-container {
@@ -162,16 +162,15 @@ margin-bottom:0;
 }
 
 #root main {
-  height: 100vh;
   flex-grow: 1;
 }
 
 //Improve Edx Course Index
-//boton tipo anchor
+//Button anchor
 .row.w-100.m-0.mb-3.justify-content-end > .col-12.col-md-auto.p-0 > button {
   background: none;
   border: none;
-  color: crimson; 
+  color: $primary; 
   cursor: pointer;
   padding: 0;
   margin: 0;
@@ -190,17 +189,17 @@ margin-bottom:0;
 //header
 
 [data-testid="start-resume-card"] .pgn__card-header .pgn__card-header-actions .btn {
-  color: white; 
+  color: $light; 
   width: fit-content;
   margin-top: 5px; 
 }
 
 .mb-3.raised-card.pgn__card.pgn__card-light.card .pgn__card-header{
   display: block !important;
-  color: white;
+  color: $light;
 }
 .mb-3.raised-card.pgn__card.pgn__card-light.card .pgn__card-header .pgn__card-header-content .pgn__card-header-title-md{
-  color: white !important;
+  color: $light !important;
 }
 
 //collapsible
@@ -256,4 +255,33 @@ margin-bottom:0;
 
 .container-xl .sequence-container .sequence {
   border: none !important; 
+}
+.pgn-transition-replace-group.position-relative .row.w-100.m-0 .col-auto.p-0 {
+  margin-left: 25px;
+}
+
+.pgn-transition-replace-group.position-relative .row.w-100.m-0 .col-10.p-0.ml-3.text-break span a{
+  color: $light;
+}
+
+.list-unstyled .mt-2.pt-2.border-top.border-light {
+  border: none !important;
+}
+
+.list-unstyled .row.w-100.m-0 .col-auto.p-0{
+  margin-left: 25px;
+}
+
+
+//Title
+
+.container-xl .row.w-100.mx-0.my-3.justify-content-between {
+  display: block;
+}
+
+.container-xl .row.w-100.mx-0.my-3.justify-content-between .col-12.col-sm-auto.p-0{
+  flex: 0 0 66.66666667%;
+  max-width: 66.66666667%;
+  margin-left: auto;
+  margin-right: auto;
 }
