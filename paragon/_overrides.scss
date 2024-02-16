@@ -2,6 +2,10 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 //override
+body{
+  background-color:$cyber-dark;
+}
+
 #root {
   display: flex;
   flex-direction: column;
