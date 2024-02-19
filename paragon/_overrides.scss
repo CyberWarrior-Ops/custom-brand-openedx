@@ -233,11 +233,11 @@ margin-bottom:0;
   color: #dd2227 !important;
 }
 
-#courseware-sequenceNavigation:first-child {
+#courseware-sequenceNavigation .previous-btn {
   display: none !important;
 }
 
-#courseware-sequenceNavigation:nth-child(2) {
+#courseware-sequenceNavigation.sequence-navigation:nth-child(2){
   max-width: 50% !important;
 }
 
