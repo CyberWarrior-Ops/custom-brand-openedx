@@ -343,6 +343,7 @@ margin-bottom:0;
 .alert-message-content .pgn__hyperlink.default-link.standalone-link::after{
   display: inline-block;
   padding: 10px 20px;
+  content: 'Start now';
   background-color: $primary;
   color: white;
   text-decoration: none !important;
