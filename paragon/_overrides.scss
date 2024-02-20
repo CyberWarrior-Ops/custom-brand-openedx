@@ -340,15 +340,20 @@ margin-bottom:0;
   visibility: hidden;
 }
 
-.alert-message-content .pgn__hyperlink.default-link.standalone-link::after{
+.fade.alert-content.alert.alert-light.show .alert-message-content .pgn__hyperlink.default-link.standalone-link::after{
   display: inline-block;
   padding: 10px 20px;
   content: 'Start now';
   background-color: $primary;
   color: white;
+  visibility: visible;
   text-decoration: none !important;
   border-radius: 5px;
   margin-left: 40%;
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
 }
 
 .alert-message-content a:nth-child(2){
