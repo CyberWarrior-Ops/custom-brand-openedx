@@ -322,7 +322,7 @@ margin-bottom:0;
   padding: 5px;
   top: 2px;
   left: 50%;
-  transform: translate(-80%, 0);
+  transform: translate(-50%, 0);
 }
 
 .pgn__alert-message-wrapper{
@@ -337,13 +337,21 @@ margin-bottom:0;
 }
 
 .alert-message-content .pgn__hyperlink.default-link.standalone-link{
+  visibility: hidden;
+}
+
+.alert-message-content .pgn__hyperlink.default-link.standalone-link::after{
   display: inline-block;
   padding: 10px 20px;
-  background-color: crimson;
+  background-color: $primary;
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   border-radius: 5px;
   margin-left: 40%;
+}
+
+.alert-message-content a:nth-child(2){
+  display: none !important;
 }
 
 .fade.alert-content.alert.alert-light.show {
