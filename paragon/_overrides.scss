@@ -228,17 +228,17 @@ margin-bottom:0;
 }
 
 //content page
-
 #root .sequence-navigation .sequence-navigation-tabs .btn {
+  color: #fff !important;
+  border-right: 0;
+}
+
+#root .sequence-navigation .sequence-navigation-tabs .btn:active, #root .sequence-navigation .sequence-navigation-tabs .btn:active::after {
   color: #dd2227 !important;
 }
 
-#courseware-sequenceNavigation .previous-btn {
+#courseware-sequenceNavigation .previous-btn, #courseware-sequenceNavigation .next-btn {
   display: none !important;
-}
-
-#courseware-sequenceNavigation.sequence-navigation:nth-child(2){
-  max-width: 50% !important;
 }
 
 .unit-container .unit h1 {
