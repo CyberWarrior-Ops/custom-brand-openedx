@@ -338,24 +338,30 @@ margin-bottom:0;
 
 .fade.alert-content.alert.alert-light.show .alert-message-content .pgn__hyperlink.default-link.standalone-link::after{
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 20px;
   content: 'Start now';
-  background-color: $primary;
+  font-size: 1rem;
+    height: 35px;
+  background-color: #AF1A1E;
   color: white;
   visibility: visible;
   text-decoration: none !important;
-  border-radius: 5px;
+  border-radius: 7px;
   position: absolute;
     left: 50%;
     transform: translate(-50%);
 
 }
 
-.alert-message-content a:nth-child(2){
+.alert-message-content a:nth-of-type(2){
   display: none !important;
 }
 
 .fade.alert-content.alert.alert-light.show {
   border: none;
     box-shadow: none;
+}
+
+.fade.alert-content.alert.alert-light.show .alert-message-content p {
+  display: none;
 }
