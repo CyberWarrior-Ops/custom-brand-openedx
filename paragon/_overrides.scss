@@ -233,7 +233,7 @@ margin-bottom:0;
   border-right: 0;
 }
 
-#root .sequence-navigation .sequence-navigation-tabs .btn:active, #root .sequence-navigation .sequence-navigation-tabs .btn:active::after {
+#root .sequence-navigation .sequence-navigation-tabs .active.btn {
   color: #dd2227 !important;
 }
 
